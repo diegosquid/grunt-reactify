@@ -59,7 +59,7 @@ module.exports = function (grunt) {
                     responses++;
                 });
 
-                if(responses === arr.length){
+                if((index+1) === arr.length){
                     done();
                 }
             }
